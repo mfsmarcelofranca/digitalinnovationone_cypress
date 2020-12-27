@@ -1,0 +1,47 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+angular-realworld-example-app/dist
+angular-realworld-example-app/tmp
+angular-realworld-example-app/out-tsc
+
+# dependencies
+angular-realworld-example-app/node_modules
+
+# IDEs and editors
+.vscode/
+angular-realworld-example-app/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+angular-realworld-example-app/.sass-cache
+angular-realworld-example-app/connect.lock
+angular-realworld-example-app/coverage
+angular-realworld-example-app/libpeerconnection.log
+npm-debug.log
+testem.log
+angular-realworld-example-app/typings
+yarn-error.log
+
+# e2e
+angular-realworld-example-app/e2e/*.js
+angular-realworld-example-app/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# cypress
+angular-realworld-example-app/cypress/videos
